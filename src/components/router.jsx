@@ -18,12 +18,15 @@ import PatientProfile from "../pages/patientProfile";
 import Appointment from "../pages/admin_panel_pages/appointment";
 import NotFound from "../pages/admin_panel_pages/notFound";
 import About from "../pages/about";
+<<<<<<< HEAD
 import SetStatus from "../pages/admin_panel_pages/setStatus";
 import YourBlogs from "../pages/admin_panel_pages/blogs";
 import EditBlog from "../pages/admin_panel_pages/editBlog";
 import Contact from "../pages/contact";
 import CalCom from "../pages/appointment";
 import Easypanel from "../pages/easypanel";
+=======
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
 
 
 
@@ -36,29 +39,43 @@ export default function Router() {
             <Routes>
                 <Route path="/">
                     <Route index element={<Home />} />
+<<<<<<< HEAD
                     <Route path="book" element={<CalCom />} />
                     <Route path="about" element={<About />} />
                     <Route path="contact" element={<Contact />} />
+=======
+                    <Route path="book" element={<Booking />} />
+                    <Route path="about" element={<About />} />
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
                     <Route path="blog/:id" element={<Blog />} />
                     <Route path="blogs" element={<Blogs />} />
                     <Route path="login" element={<Login />} />
                     <Route path="register" element={<Register />} />
                     <Route path="create-patient-profile" element={<PatientForm />} />
                     <Route path="patient-profile" element={<PatientProfile />} />
+<<<<<<< HEAD
                     <Route path="panel" element={<Easypanel />} />
                     <Route path="/patient/:id" element={<PatientProfile />} />
                 </Route>
 
+=======
+                    <Route path="/patient/:id" element={<PatientProfile />} />
+                </Route>
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
                 <Route path="*" element={<NotFound />} />
 
                 <Route path="/admin" element={<AdminPanel />}>
                     <Route path="appointments" element={<Appointments />} />
                     <Route path="appointment/:id" element={<Appointment />} />
                     <Route path="write-blog" element={<WriteBlog />} />
+<<<<<<< HEAD
                     <Route path="edit-blog/:id" element={<EditBlog />} />
                     <Route path="your-blogs" element={<YourBlogs />} />
                     <Route path="notifications" element={<AdminNotifications />} />
                     <Route path="set-status" element={<SetStatus />} />
+=======
+                    <Route path="notifications" element={<AdminNotifications />} />
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
                     <Route path="patients" element={<Patients />} />
                     <Route path="patient/:id" element={<Patient />} />
                 </Route>

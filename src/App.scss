@@ -15,11 +15,18 @@ body::-webkit-scrollbar-thumb {
   border-radius: 8px;
 }
 
+<<<<<<< HEAD
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   
+=======
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
 }
 
 .name {
@@ -120,7 +127,10 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   height: fit-content;
   margin-bottom: 10rem;
+<<<<<<< HEAD
   min-height: 100vh;  
+=======
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
 }
 .clinic-pics {
   position: relative;
@@ -527,6 +537,7 @@ h2 {
   box-sizing: border-box;
   
   
+<<<<<<< HEAD
 }
 
 
@@ -629,4 +640,6 @@ span.contact-info {
     letter-spacing: 2px ;
     color: rgba(128, 128, 128, 0.901) ;
   }
+=======
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
 }

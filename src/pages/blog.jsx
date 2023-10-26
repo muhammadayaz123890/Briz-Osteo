@@ -53,7 +53,11 @@ export default function Blog() {
                                 {dateTime}
                             </span>
                             <span className="blog-content">
+<<<<<<< HEAD
                               <div dangerouslySetInnerHTML={{__html : blog.content}} />
+=======
+                                {blog.content}
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
                             </span>
                         </div>
                     </div>

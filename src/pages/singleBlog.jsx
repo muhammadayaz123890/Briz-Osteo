@@ -18,12 +18,16 @@ export default function SingleBlog(props) {
                     {date}
                 </span>
                 <span className="blog-content">
+<<<<<<< HEAD
                     {
                         <span className="blog-content">
                         <div dangerouslySetInnerHTML={{__html : content}} />
                       </span>
                     
                     }
+=======
+                    {content}
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
                 </span>
                 <Link to={`/blog/${id}`} style={{ textDecoration: 'none', width: "fit-content", marginTop: '2rem' }}>Read More</Link>
             </div>

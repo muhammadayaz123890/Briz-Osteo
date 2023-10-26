@@ -38,6 +38,7 @@ export default function AdminPanel() {
                                 </div>
                                 <div className="row d-flex flex-row justify-content-around  dash-services">
                                     <Link to='/admin/write-blog' className="ser col-lg-3 blog cont">
+<<<<<<< HEAD
                                         Blog
                                     </Link>
                                     <Link to='/admin/members' className="ser col-lg-3 members cont">
@@ -45,6 +46,15 @@ export default function AdminPanel() {
                                     </Link>
                                     <Link to='/admin/appointments' className="ser col-lg-3 appoi  cont">
                                         Appointments
+=======
+                                        <i class="fa-solid fa-plus"></i> Blog
+                                    </Link>
+                                    <Link to='/admin/members' className="ser col-lg-3 members cont">
+                                        <i class="fa-solid fa-user-group"></i>Members
+                                    </Link>
+                                    <Link to='/admin/appointments' className="ser col-lg-3 appoi  cont">
+                                        <i class="fa-solid fa-calendar-check"></i>  Appointments
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
                                     </Link>
                                 </div>
                             </div>

@@ -7,7 +7,10 @@ import { db } from "../firebase";
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
 export default function Sidebar() {
 
 
@@ -41,7 +44,11 @@ export default function Sidebar() {
   return (
     <>
       <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style={{ width: "100%", height: '100%', boxShadow: "0px 3px 10px gray" }}>
+<<<<<<< HEAD
         <Link to='/' class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+=======
+        <Link href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
           <span class="fs-4">Briz Osteo Admin</span>
         </Link>
         <hr />
@@ -52,11 +59,14 @@ export default function Sidebar() {
             </Link>
           </li>
           <li>
+<<<<<<< HEAD
             <Link to='/admin/set-status' class="nav-link link-dark">
               Your Status 
             </Link>
           </li>
           <li>
+=======
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
             <Link to='/admin/notifications' class="nav-link link-dark">
               Notifications <span style={{backgroundColor:'red', color:'white', padding:'5px 10px', fontSize:'12px', borderRadius:'50%'}} className="noti">{notiCount}</span>
             </Link>
@@ -67,6 +77,7 @@ export default function Sidebar() {
             </Link>
           </li>
           <li>
+<<<<<<< HEAD
             <Link to="/admin/your-blogs" class="nav-link link-dark">
               Your Blogs
             </Link>
@@ -76,6 +87,17 @@ export default function Sidebar() {
               Create Blog
             </Link>
           </li> */}
+=======
+            <Link to="/admin/write-blog" class="nav-link link-dark">
+              Create Blog
+            </Link>
+          </li>
+          <li>
+            <Link to='/admin/members' class="nav-link link-dark">
+              Members 
+            </Link>
+          </li>
+>>>>>>> 694c2a70a6bbf3bf628301716fe28c7162818944
           <li>
             <Link to='/admin/patients' class="nav-link link-dark">
               Patients 
